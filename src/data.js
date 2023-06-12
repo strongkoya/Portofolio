@@ -23,26 +23,26 @@ import UserFace from "./assets/me.jpg"
 
 export const data = 
     {
-      userName: "khaled",
-      lastName: "Jouablia",
-      email: "khaledjb584@gmail.com",
+      userName: "Mohamed Koussay",
+      lastName: "Toumi",
+      email: "toumikoussay@hotmail.fr",
       profil:"Web & Mobile Developer",
       userFace:UserFace,
       profilDescription:
-      "My name is Khaled Jouablia, a 24-year-old Tunisian student specializing in Business Intelligence . I completed my high school education with honors at Ghardimaou Secondary School in 2018 and went on to obtain a Bachelor's degree in Management Informatics, focusing on Business Intelligence, from FSEGJ in 2022. During my studies, I developed a website for an online retail platform as my final year project. Currently, I am pursuing a Professional Master's degree in Mobile Application Development at Iset de Rades. With a passion for programming and a drive for innovation, I am enthusiastic about utilizing my skills to create cutting-edge mobile applications. I thrive in collaborative environments, possess strong problem-solving abilities, and continuously strive to enhance my expertise in web and mobile app development."
+      "I am Toumi Mohamed Koussay, a Web and Mobile Developer. I am currently a student pursuing a Professional Master's degree in Mobile Application Development at ISET Rades. I am also passionate about new technologies. Being curious and enthusiastic about new technologies, I am constantly seeking new challenges to enhance my knowledge."
       ,
       
       cards:[
         {
             icon:Experience,
             title: "Experience",
-            content:"Since 2016"
+            content:"Since 2012"
  
          },
         {
             icon:Group,
             title: "Teams",
-            content:"Iset rades Teams"
+            content:"Iset Rades Teams"
  
          },
          {
@@ -154,21 +154,7 @@ export const data =
         
       ],
       services: [
-        {
-            title: "Business Intelligence Consulting",
-            elements: [
-            "Data analysis and visualization",
-            "Dashboard and report development",
-            "Data modeling and database design",
-            "Data integration and ETL processes",
-            "Performance monitoring and optimization",
-            "Business analytics and insights",
-            "Data-driven decision making",
-            "Data quality management",
-            "BI tool selection and implementation",
-            "Training and support for BI solutions"
-            ]
-            },   
+           
         {
             title: "Mobile App Development",
             elements: [
@@ -221,21 +207,21 @@ export const data =
                 image:Weather,
                 title:'Weather',
                 description:"App for Android(with widget) that displays current weather and a 5-day forecast for any city using the OpenWeatherMap API",
-                code:'https://github.com/Jkhaled-glitch/weather',
+                code:'https://github.com/strongkoya/WeatherWidgetApp',
                 demo:'http://github.com/Alien_pixels2'
             },
             {   
                 image:Hyngry,
-                title:'Hyngry',
-                description:"Hyngry is an Android app that allows users to search for nearby restaurants using Bing Maps",
-                code:'https://github.com/Jkhaled-glitch/Hungry',
+                title:'Myguide',
+                description:"Myguide is an Android app that allows users to search for nearby restaurants, hoteels and attractions using Bing Maps",
+                code:'https://github.com/strongkoya/My_Guide',
                 demo:'http://github.com/Alien_pixels2'
             },
             {   
                 image:TicTacToe,
                 title:'TicTacToe',
-                description:"Android app featuring a Tic Tac Toe game with Canvas, animations.",
-                code:'https://github.com/Jkhaled-glitch/Tictactoe',
+                description:"Android app featuring a Tic Tac Toe game with Canvas, animations and Custom Views.",
+                code:'https://github.com/strongkoya/Tic-Tac-Toe',
                 demo:'http://github.com/Alien_pixels2'
             },
             {   
@@ -267,13 +253,13 @@ export const data =
       ],
       messenger:
       {
-            label:"Khaled Jouablia",
-            link: "http://m.me/khaled.jouablia"
+            label:"Toumi Mohamed Koussay",
+            link: "http://m.me/toumikoussay"
       },
       whatsApp:
       {
-            tel:"+216 53 076 588",
-            link: "https://api.whatsapp.com/send?phone+21653076588"
+            tel:"+216 95 505 789",
+            link: "https://api.whatsapp.com/send?phone+21623704540"
       },
 
       
